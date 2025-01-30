@@ -1,0 +1,25 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("vc é assinante da netflix?");
+			string ass = Convert.ToString(Console.ReadLine().ToLower());
+			Console.WriteLine("vc ja assistiu JOJO Bizarre Adventure?");
+			string yeep = Convert.ToString(Console.ReadLine().ToLower());
+			
+			if (ass == "sim" && yeep == "sim"){
+				Console.WriteLine("vc pode assistir a nova temporada!!!");
+			}
+			else {
+				Console.WriteLine("poxa que pena ");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
