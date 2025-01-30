@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Vc é robô?");
+			string yeep = Convert.ToString(Console.ReadLine());
+			
+			if (yeep == "não" ){
+				Console.WriteLine("Prove que vc n é um robo");
+			}
+			else{
+				Console.WriteLine(" entt ta bom");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
