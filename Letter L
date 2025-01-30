@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite ");
+			int num = Convert.ToInt32(Console.ReadLine());
+			
+			if (num == 0 ){
+				Console.WriteLine(">:D");
+			}
+			else{
+				Console.WriteLine("diferete de zero");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
