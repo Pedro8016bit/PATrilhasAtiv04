@@ -1,0 +1,26 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("digite um numero;");
+			int num = Convert.ToInt32(Console.ReadLine());
+			
+			int equal1 = num % 3;
+			int equal2 = num % 5;
+			
+			
+			if (equal1 == 0 || equal2 == 0){
+				Console.WriteLine("numero divisivel por 3 ou por 5");
+			}
+			else{
+				Console.WriteLine("n é divisivel por 3 ou or 5");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
