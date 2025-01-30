@@ -1,0 +1,21 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("digite um numero");
+			int num = Convert.ToInt32(Console.ReadLine());
+			
+			string resultado;
+			
+			resultado = (num % 2 == 0) ? "par" : "impar";
+			Console.WriteLine(resultado);
+				
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
