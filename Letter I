@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("digite seu nome ");
+			string nome = Convert.ToString(Console.ReadLine());
+			
+			if (nome == "Wilson" || nome == "Gloria"){
+				Console.WriteLine("bem vindo de volta!!");
+			}
+			else{
+				Console.WriteLine(">:(");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
