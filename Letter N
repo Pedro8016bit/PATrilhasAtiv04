@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("digite uma palavra  ");
+			string yeep = Convert.ToString(Console.ReadLine());
+			
+			if (yeep == "" || yeep == "  "){
+				Console.WriteLine("palavra vazia");
+			}
+			else{
+				Console.WriteLine("não é uma palavra vazia");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
