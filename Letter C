@@ -1,0 +1,25 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Quantos anos vc tem?");
+			int idade = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("vc é foramdo e possiu diploma?");
+			string diploma = Convert.ToString(Console.ReadLine().ToLower());
+			
+			if (idade >= 21 && diploma == "sim"){
+				Console.WriteLine("vc é qualificado para a vaga!!!");
+			}
+			else {
+				Console.WriteLine("vc n é qualificado ");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
