@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("vc quer açucar ou leite ao seu café?");
+			string deci = Convert.ToString(Console.ReadLine());
+			
+			if (deci == "açucar" || deci == "leite"){
+				Console.WriteLine("Café com adicional preparado!!!");
+			}
+			else{
+				Console.WriteLine("Opção invalida");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
