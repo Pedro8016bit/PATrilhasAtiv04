@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_4___01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("deseja cancelar?");
+			string yeep = Convert.ToString(Console.ReadLine());
+			
+			if (yeep == "Sim" || yeep == "s"){
+				Console.WriteLine("por favor confirme o cancelamento da operação");
+			}
+			else{
+				Console.WriteLine("ok entt");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
